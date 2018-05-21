@@ -1,0 +1,55 @@
+{
+  "name": "injamio/injam-laravel-package",
+  "description": "Injam.io Laravel Package",
+  "license": "MIT",
+  "keywords": [
+    "injam.io",
+    "laravel",
+    "package",
+    "injam"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Soroush Khosravi",
+      "email": "me@soroo.sh"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "illuminate/support": "~5.6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.6.0",
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aghasoroush\\InjamLaravelPackage\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aghasoroush\\InjamLaravelPackage\\Tests\\": "tests"
+    },
+    "files": [
+      "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Injamio\\InjamLaravelPackage\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
