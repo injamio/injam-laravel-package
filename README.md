@@ -1,14 +1,14 @@
 # Injam Laravel Package
 
-[![Build Status](https://travis-ci.org/aghasoroush/injam-laravel-package.svg?branch=master)](https://travis-ci.org/aghasoroush/injam-laravel-package)
+[![Build Status](https://travis-ci.org/injamio/injam-laravel-package.svg?branch=master)](https://travis-ci.org/injamio/injam-laravel-package)
 [![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aghasoroush/injam-laravel-package/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aghasoroush/injam-laravel-package/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/injamio/injam-laravel-package/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/injamio/injam-laravel-package/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
-[![Coverage Status](https://coveralls.io/repos/github/aghasoroush/injam-laravel-package/badge.svg?branch=master)](https://coveralls.io/github/aghasoroush/injam-laravel-package?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/injamio/injam-laravel-package/badge.svg?branch=master)](https://coveralls.io/github/injamio/injam-laravel-package?branch=master)
 
-[![Packagist](https://img.shields.io/packagist/v/aghasoroush/injam-laravel-package.svg)](https://packagist.org/packages/aghasoroush/injam-laravel-package)
-[![Packagist](https://poser.pugx.org/aghasoroush/injam-laravel-package/d/total.svg)](https://packagist.org/packages/aghasoroush/injam-laravel-package)
-[![Packagist](https://img.shields.io/packagist/l/aghasoroush/injam-laravel-package.svg)](https://packagist.org/packages/aghasoroush/injam-laravel-package)
+[![Packagist](https://img.shields.io/packagist/v/injamio/injam-laravel-package.svg)](https://packagist.org/packages/injamio/injam-laravel-package)
+[![Packagist](https://poser.pugx.org/injamio/injam-laravel-package/d/total.svg)](https://packagist.org/packages/injamio/injam-laravel-package)
+[![Packagist](https://img.shields.io/packagist/l/injamio/injam-laravel-package.svg)](https://packagist.org/packages/injamio/injam-laravel-package)
 
 Package description: CHANGE ME
 
