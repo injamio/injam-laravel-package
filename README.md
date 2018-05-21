@@ -1,9 +1,9 @@
 # Injam Laravel Package
 
 [![Build Status](https://travis-ci.org/injamio/injam-laravel-package.svg?branch=master)](https://travis-ci.org/injamio/injam-laravel-package)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
+[![styleci](https://styleci.io/repos/134127789/shield)](https://styleci.io/repos/134127789)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/injamio/injam-laravel-package/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/injamio/injam-laravel-package/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/2aabff8c-7aa4-4c56-9569-a182f9a1801f/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
 [![Coverage Status](https://coveralls.io/repos/github/injamio/injam-laravel-package/badge.svg?branch=master)](https://coveralls.io/github/injamio/injam-laravel-package?branch=master)
 
 [![Packagist](https://img.shields.io/packagist/v/injamio/injam-laravel-package.svg)](https://packagist.org/packages/injamio/injam-laravel-package)
