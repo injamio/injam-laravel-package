@@ -10,19 +10,19 @@
 [![Packagist](https://poser.pugx.org/injamio/injam-laravel-package/d/total.svg)](https://packagist.org/packages/injamio/injam-laravel-package)
 [![Packagist](https://img.shields.io/packagist/l/injamio/injam-laravel-package.svg)](https://packagist.org/packages/injamio/injam-laravel-package)
 
-Package description: CHANGE ME
+"Injam" is a Next Generation Real-Time Machine that provides a set of Geolocation, Geospatial, Messaging and Streaming services in fast (almost-teleporting) and secure way. So this Package enables you to interact with them easily from server side.
 
 ## Installation
 
 Install via composer
 ```bash
-composer require aghasoroush/injam-laravel-package
+composer require injamio/injam-laravel-package
 ```
 
 ### Register Service Provider
 
-**Note! This and next step are optional if you use laravel>=5.5 with package
-auto discovery feature.**
+Note: This and next steps are optional if you use Laravel >= 5.5 with package
+auto discovery feature.
 
 Add service provider to `config/app.php` in `providers` section
 ```php
@@ -42,16 +42,39 @@ Injamio\InjamLaravelPackage\Facades\InjamLaravelPackage::class,
 php artisan vendor:publish --provider="Injamio\InjamLaravelPackage\ServiceProvider" --tag="config"
 ```
 
+### API Key
+Add `INJAM_API_KEY` to your `.env` file:
+```bash
+INJAM_API_KEY=YOUR_INJAM_API_KEY
+```
+[Here](https://dashboard.injam.io/applications) you can find you application api key.
+
 ## Usage
 
-CHANGE ME
+Use package in your controller:
+```php
+use Injamio\InjamLaravelPackage\InjamLaravelPackage;
+```
 
-## Security
+Create instance of InjamLaravelPackage class:
+```php
+$injam = new InjamLaravelPackage;
+```
 
-If you discover any security related issues, please email me@soroo.sh
-instead of using the issue tracker.
+#### Add Tracker:
+```php
+$tracker = $njam->addTracker(TRACKING_PHYSICAL_ID, TRACKER_MOBILE);
+```
+Example:
+```php
+$tracker = $njam->addTracker('zxcvbn', '09123456789');
+```
 
-## Credits
-
-- [Soroush Khosravi](https://soroo.sh)
-
+#### Add Geofence webhook:
+```php
+$hook = $njam->addGeoFenceWebhook(OBJECT_TYPE, PHYSICAL_ID, TARGET_POINT, RADIUS_IN_METERS, ENDPOINT, DETECT_EVENTS);
+```
+Example:
+```php
+$hook = $njam->addGeoFenceWebhook('bike', 'zxcvbn', '35.7384336,51.4026536', 60, 'https://api.example.com/v1/do/action', 'enter,exit');
+```
