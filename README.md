@@ -33,7 +33,7 @@ Injamio\InjamLaravelPackage\ServiceProvider::class,
 
 Register package facade in `config/app.php` in `aliases` section
 ```php
-Injamio\InjamLaravelPackage\Facades\InjamLaravelPackage::class,
+'Injamio' => Injamio\InjamLaravelPackage\Facades\InjamLaravelPackage::class,
 ```
 
 ### Publish Configuration File
