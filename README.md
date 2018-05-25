@@ -63,18 +63,18 @@ $injam = new InjamLaravelPackage;
 
 #### Add Tracker:
 ```php
-$tracker = $njam->addTracker(TRACKING_PHYSICAL_ID, TRACKER_MOBILE);
+$tracker = $injam->addTracker(TRACKING_PHYSICAL_ID, TRACKER_MOBILE);
 ```
 Example:
 ```php
-$tracker = $njam->addTracker('zxcvbn', '09123456789');
+$tracker = $injam->addTracker('zxcvbn', '09123456789');
 ```
 
 #### Add Geofence webhook:
 ```php
-$hook = $njam->addGeoFenceWebhook(OBJECT_TYPE, PHYSICAL_ID, TARGET_POINT, RADIUS_IN_METERS, ENDPOINT, DETECT_EVENTS);
+$hook = $injam->addGeoFenceWebhook(OBJECT_TYPE, PHYSICAL_ID, TARGET_POINT, RADIUS_IN_METERS, ENDPOINT, DETECT_EVENTS);
 ```
 Example:
 ```php
-$hook = $njam->addGeoFenceWebhook('bike', 'zxcvbn', '35.7384336,51.4026536', 60, 'https://api.example.com/v1/do/action', 'enter,exit');
+$hook = $injam->addGeoFenceWebhook('bike', 'zxcvbn', '35.7384336,51.4026536', 60, 'https://api.example.com/v1/do/action', 'enter,exit');
 ```
